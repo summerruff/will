@@ -10,7 +10,7 @@
 #container{
     width: 92vw;
     margin: 0 auto;
-    padding-bottom: 4%;
+    padding-bottom: 6%;
 
     display: grid;
     grid-template-columns: auto auto auto;
