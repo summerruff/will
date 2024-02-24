@@ -8,8 +8,14 @@
 }
 
 #container{
-    width: 90vw;
+    width: 92vw;
     margin: 0 auto;
+    padding-bottom: 4%;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 1%;
+    column-gap: 1%;
 }
 .card {
     display: inline-block;
@@ -17,8 +23,8 @@
     /* top: 50%;
     left: 50%; */
     /* transform: translate(-50%,-50%); */
-    width: 370px;
-    height: 493px;
+    width: 30vw;
+    height: 40vw;
     background: #000;
 }
 .card .image {
@@ -91,4 +97,18 @@
 }
 .card .details .center ul li a:hover {
     background: #ff3636;
+}
+
+#top{
+    text-align: center;
+    margin-bottom: 2%;
+}
+#top a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: var(--indigo-dye);
+}
+#top a:hover{
+    color: var(--platinum);
+    font-style: italic;
 }
